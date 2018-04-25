@@ -1,0 +1,24 @@
+<view class="container">
+	<view class="userinfo">
+		<image wx:if="{{userInfo && userInfo.avatarUrl}}" class="userinfo-avatar" src="{{ userInfo.avatarUrl }}" background-size="cover"></image>
+		<text class="userinfo-nickname">{{ userInfo.nickName }}</text>
+	</view>
+   <view style="height:20rpx;background: #eee;width:100%;"></view> 
+  <view class="my-item">
+    <navigator open-type="navigate" class="fontStyle"  url="../wallet/wallet"  hover-class="navigator-hover">我的钱包</navigator>
+  </view>
+  <view class="my-item">
+    <navigator open-type="navigate" bindtap='switchToLotInfo' hover-class="navigator-hover">停车信息</navigator>
+  </view>
+  <view class="my-item">
+    <navigator open-type="navigate" bindtap="askOrder"  hover-class="navigator-hover">订单记录</navigator>
+  </view>
+  <!-- <view class="my-item" wx:if="{{isAdmin}}" >
+    <navigator  open-type="navigate" bindtap='转跳到管理员' hover-class="navigator-hover">管理员界面</navigator>
+  </view> -->
+  <view style="height:20rpx;background: #eee;width:100%;"></view>
+  <view style="height:20rpx;background: #eee;width:100%;"></view>
+  <view style="height:20rpx;background: #eee;width:100%;"></view>
+  <view class="version">designed by YCIT {{version}}</view>
+  <view style="height:20rpx;background: #eee;width:100%;"></view>
+</view>

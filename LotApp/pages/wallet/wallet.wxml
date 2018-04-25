@@ -1,0 +1,6 @@
+<view class="wallet_homepage">
+<view class="icon"><image src="../../images/mywallet.png"></image></view>
+<view class="text">钱包余额(元)</view>
+<view class="mywallet">{{wallet}}</view>
+<button disabled="{{disabled}}" bindtap="recharge">充值</button>
+</view>

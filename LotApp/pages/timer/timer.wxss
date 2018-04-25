@@ -1,0 +1,92 @@
+.wallet_homepage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #F4F6F7;
+  display: flex;
+  flex-flow: column
+}
+.icon {
+    margin-top: 160rpx;
+    width: 100%;
+    height: 30%;
+}
+image{
+    margin-left: 275rpx;
+    width:200rpx;
+    height: 200rpx; 
+}
+.text{
+    margin-top: 80rpx;
+    width: 100%;
+    text-align: center;
+    font-size: 30rpx
+}
+.mywallet{
+    margin-top: 80rpx;
+    width: 100%;
+    text-align: center;
+    font-size: 70rpx
+}
+button{
+    margin-top: 80rpx;
+    background-color: #34B5E3;
+    color: #FFFFFF;
+    height: 80rpx;
+    width: 90%;
+    border-radius: 40rpx;
+    line-height: 80rpx
+}
+
+.count-down {
+  font-size: 4em;
+  font-weight: 750;
+  height: 33%;
+  width: 100%;
+  margin-left: 125rpx;
+  margin-top: 50%;
+}
+
+.cur-state1{
+  font-size: 3em;
+  font-weight: 400;
+  color: red;
+  margin-left: 125rpx;
+}
+
+.cur-state2{
+  font-size: 3em;
+  font-weight: 400;
+  color: greenyellow;
+  margin-left: 125rpx;
+
+}
+
+.display-container {
+  height: 50%;
+  width: 100%;
+} 
+
+.display-text{
+  height: 20%;
+  width: 100%;
+  border-color: black;
+}
+
+.title-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40rpx;
+}
+.content-text1{
+    margin-left: 200rpx;
+    font-size: 30rpx;
+}
+
+.content-text2{
+    margin-left: 150rpx;
+    font-size: 30rpx;
+}
+
+
+

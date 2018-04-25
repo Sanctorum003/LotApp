@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <map id="Map" latitude="{{latitude}}"
+  longitude="{{longitude}}" scale="{{scale}}"
+  bindregionchange="bindregionchange"
+  marks = "{{marks}}" controls="{{controls}}"
+  covers="{{covers}}"
+  bindcontroltap="bindcontroltap"
+  show-location="true">
+  </map>
+</view>

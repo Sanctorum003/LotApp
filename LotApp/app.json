@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myPage/myPage",
+    "pages/wallet/wallet",
+    "pages/deposit/deposit",
+    "pages/recharged/recharged",
+    "pages/count/count",
+    "pages/cost/cost",
+    "pages/timer/timer",
+    "pages/order-list/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "我的地图"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#515151",
+    "backgroundColor": "#fff",
+    "borderStyle": "#999",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/map1.png",
+        "selectedIconPath": "images/map.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/myPage/myPage",
+        "iconPath": "images/user1.png",
+        "selectedIconPath": "images/user.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,14 @@
+<view class="wallet_homepage">
+  <view class="icon"><image src="../../images/timer.png"></image></view>
+  <view class="display-container">
+    <text class="count-down">{{time}}</text>
+    <view wx:if="{{isParkStart}}" class="cur-state2" >正在停车...{{currentState}}</view> 
+    <view wx:else class="cur-state1" >准备停车...{{currentState}}</view>
+      
+  </view >
+  <view class="display-text">
+    <view  bindtap='stopRun' class="title-text">声明</view>
+    <view  bindtap='starRun' class="content-text1">本停车位前30分钟不计费</view>
+    <view class="content-text2">超过30分钟每小时收费{{costPerHour}},最低收费0.1元</view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<view class="container">
+  <view style="height:20rpx;background: #eee;width:100%;"></view>
+  <view style="height:20rpx;background: #eee;width:100%;"></view> 
+  <view class="my-item" wx:for="{{orderLen}}">
+    <view  class="fontStyle">
+      <view class="wenben">
+        <image class="img" src='../../images/order_service_blue.png'></image>
+        <view class="right">
+          <view>
+            <text class="small">{{locHistOrderStopTime[index]}} 到 {{locHistOrderStopTime[index]}}</text>
+          </view>
+          <view>
+            <view class="wenben">
+              <text class="left">持续时间:{{locHistOrderLastTime[index]}}</text>
+              <text class="right">花费:{{locHistOrderCost[index]}}</text>
+            </view>
+          </view>        
+        </view>
+      </view>
+    </view>
+    <view style="height:20rpx;background: #eee;width:100%;"></view>
+  </view>
+</view>
